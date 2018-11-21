@@ -21,10 +21,10 @@ Desktop can be both a Desktop and an IConnect, so anything accepting IConnect ca
 
 ```java
 
-private ArrayList<IConnect> devices;  //UPDATED
+private ArrayList<IConnect> devices; 
 
 public Network(String name){
-this.devices = new ArrayList<IConnect>();  //UPDATED
+this.devices = new ArrayList<IConnect>();
 this.name = name;
 }
 
